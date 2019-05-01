@@ -81,7 +81,7 @@ p {
     margin-right: 100px;
     margin-left: 100px;
 }
-a:link {
+a.nav:link {
     font-family: 'Merriweather', serif, 'Merriweather Sans', sans-serif;
     font-size: 2em;
     margin-left: 450px;
@@ -90,9 +90,12 @@ a:link {
     color: lightgreen;
     padding: 10px;
 }
-a:visited {
+a.nav:visited {
     color: lightgreen
 }
-a:hover {
+a.nav:hover {
     background-color: darkgreen;
+}
+a.external:link {
+    font-family: 'Merriweather', serif, 'Merriweather Sans', sans-serif;
 }
